@@ -12,6 +12,7 @@ const include = [
 ];
 
 rmSync('release', { recursive: true, force: true });
+
 mkdirSync('release', { recursive: true });
 
 for (const p of include) {
